@@ -1,0 +1,16 @@
+<%- include("header") -%>
+    <h1>This is home</h1>
+    <p>
+        <%= homecontent %>
+    </p>
+    <% for (var i = 0; i < title.length; i++) { %>
+        <h1>
+            <%= title[i] %>
+        </h1>
+        <p>
+            <%= newitem[i] %>
+                .... <a href="/" +>Read more</a>
+        </p>
+        <%      } %>
+
+            <%- include("footer") -%>

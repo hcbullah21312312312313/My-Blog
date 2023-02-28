@@ -1,0 +1,12 @@
+<%- include("header") -%>
+    <h1>Compose</h1>
+    <form action="/" method="post">
+        <label for="topic">Title:</label>
+
+        <input type="text" style="width: 90%;" name="topic" autocomplete="off" placeholder="Here goes your blog title">
+        <br>
+        <label for="post">Type Your Post Here:</label><br>
+        <textarea type="text" name="post" id="" cols="149" autocomplete="off" rows="10" placeholder="Type Your Blog Here"></textarea>
+        <button type="submit" name="postButton" style="color:aliceblue;background-color: #1abc9c;" class="btn">Post Now</button>
+    </form>
+    <%- include("footer") -%>
